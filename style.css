@@ -1,0 +1,122 @@
+body {
+    background-color: #efeee7;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+
+h1 {
+    color: #efeee7;
+    background-color: #333333;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+a {
+    color: red;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+    float: left;
+}
+
+#main-bio {
+    width: 70%;
+}
+#contact-info {
+    width: 30%;
+}
+
+#bio-image {
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+}
+ 
+  /* Hover Pseudo Class:
+      Changes the style only when mouse hovers
+      over the preceding element.
+  */
+  a:hover {
+    background-color: whitesmoke;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: blue;
+  }
+  
+  /* Focus Pseudo Class
+      Changes the style only when browser
+      gives the element focus
+      (in this case, after the link is clicked).
+  
+  a:focus {
+    background-color: gray;
+  }
+  */
+  /* Active Pseudo Class
+      Changes the style only while the user
+      clicks down on an element. This style ceases
+      when the user releases their click.
+  */
+  a:active {
+    background-color: black;
+  }
+
+  #linkedin{
+      color: blue;
+  }
+
+  #linkedin:hover {
+    background-color: ghostwhite;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: blue;
+  }
+  
+  #proheader:hover {
+    background-color: rgb(80, 77, 74);
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+
+  #myname:hover {
+    background-color: rgb(80, 77, 74);
+    color: white;
+    text-transform: capitalize;
+  }
+
+  #contact:hover {
+    background-color: blue;
+    color: whitesmoke;
+    text-transform: capitalize;
+  }
+
+  ::selection {
+    color: blue;
+    background: yellow;
+  }
+
+  #pfirst::first-line {
+    background-color: yellow;
+  }
+
+  #pfirst::after {
+    content: url(https://www.w3schools.com/css/smiley.gif);
+  }
